@@ -38,7 +38,7 @@
        Create your own custom Modernizr build: www.modernizr.com/download/ -->
   <script src="../js/libs/modernizr-2.5.3.min.js"></script>
 </head>
-<body class="contact">
+<body class="contact confirmation">
   <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
        chromium.org/developers/how-tos/chrome-frame-getting-started -->
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
@@ -61,11 +61,11 @@
     <nav class="mobile clearfix"> 
         <ul>
           <li><a href="/" title="Home Page">Home</a></li>
-          <li><a href="../psychology" title="PsychologyPage">Psychology</a></li>
+          <li><a href="../psychology" title="Psychology Page">Psychology</a></li>
           <li><a href="../law" title="Law Page">Law</a></li>
-          <li><a href="../about" title="Law Page">About Us</a></li>
-          <li><a href="" title="Law Page">Contact</a></li>
-          <li><a href="../legal" title="Law Page">Legal</a></li>
+          <li><a href="../about" title="About Page">About Us</a></li>
+          <li><a href="" title="Contact Page" class="current">Contact</a></li>
+          <li><a href="../legal" title="Legal Page">Legal</a></li>
         </ul>
     </nav>
 
@@ -92,29 +92,17 @@
           <p>(614) 309-9727</p>
 
           <h3>Fax</h3>
+          <?php echo "Thank you for contacting us!"; ?>
           <p>(614) 895-6801</p>
 
         </div>
       </div>
 
-      <h3>Send a Message<h3>
+      <div id="confirmed">
 
-      <form action="#" method="">
+        <p>Thank you for your message! We will contact you soon.</p>
 
-        <fieldset>
-          <label for="name">Your name</label>
-          <input type="text" name="name" id="name" required autofocus >
-          
-          <label for="email">Your email address</label>
-          <input type="email" name="email" id="email" required >
-          
-          <label for="message">Enter your message</label>
-          <textarea name="message" id="message" required ></textarea>
-          
-          <input type="submit" name="submit" value="Submit Form" id="submit-">
-        </fieldset>
-
-      </form>
+      <div>
 
 
   		

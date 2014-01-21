@@ -309,6 +309,10 @@ header img {
   width: 100%;
 }
 
+.mobile li a.current {
+  color: white;
+}
+
 
 
 
@@ -338,6 +342,7 @@ footer ul {
 	padding: 0;
 	text-transform: uppercase;
 	font-size: .8em;
+  display: none;
 }
 footer li {
 	display: inline;
@@ -395,6 +400,12 @@ footer p {
   float: left;
   padding: 0 20px 10px 0;
 }
+
+.law section a {
+  color: rgb(205, 12, 23);
+  font-weight: bold;
+}
+
 .law p span {
   color: rgb(205, 12, 23);
   font-weight: bold;
@@ -484,6 +495,7 @@ footer p {
 .contact textarea {
   background: #fff;
   margin-bottom: 1.5em;
+  font-size: .9em;
 }
 
 .contact #submit-button {
@@ -504,6 +516,19 @@ footer p {
 }
 .address p {
   margin: 0;
+}
+
+#confirmed {
+  width: 100%;
+  height: 10em;
+  background: #fffbe4;
+}
+
+#confirmed p {
+  color: rgb(205, 12, 23);
+  font-weight: bold;
+  text-align: center;
+  padding-top: 2em;
 }
 
 /* Legal */
@@ -653,6 +678,7 @@ a.right {
  }
  footer ul {
  	text-align: center;
+  display: block;
  }
 
 
@@ -668,10 +694,6 @@ a.right {
 }
 .law section img {
 	display:inherit;
-}
-.law section a {
-  color: rgb(205, 12, 23);
-  font-weight: bold;
 }
 .law section ul {
   list-style-type: disc;

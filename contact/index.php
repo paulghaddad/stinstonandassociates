@@ -12,7 +12,7 @@
        More info: h5bp.com/i/378 -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>Stinson &amp; Associates, Inc. | Law</title>
+  <title>Stinson &amp; Associates, Inc. | Contact</title>
   <meta name="description" content="This website is devoted to the law and psychology practices of Dr. Bob Stinson.">
 
   <!-- Mobile viewport optimized: h5bp.com/viewport -->
@@ -38,13 +38,13 @@
        Create your own custom Modernizr build: www.modernizr.com/download/ -->
   <script src="../js/libs/modernizr-2.5.3.min.js"></script>
 </head>
-<body class="law">
+<body class="contact">
   <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
        chromium.org/developers/how-tos/chrome-frame-getting-started -->
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
 
   <header>
-	<h1>Bob Stinson - Law</h1>
+	<h1>Bob Stinson - To Contact Me</h1>
 	<a href="/" title="Home Page"><img src="../img/bobstinson_signature_v2.png" alt="Bob Stinson signature" width="211" height="170" /></a>
   </header>
   
@@ -53,7 +53,7 @@
         <ul class="desktop clearfix">
           <li><a href="/" title="Home Page">Home</a></li>
           <li><a href="../psychology" title="Psychology" id="psychologyButton">Psychology</a></li>
-          <li><a href="" title="Law" id="lawButton" class="current">Law</a></li>
+          <li><a href="../law" title="Law" id="lawButton">Law</a></li>
           <li><a href="../about" title="About">About Us</a></li>
         </ul>
     </nav>
@@ -62,9 +62,9 @@
         <ul>
           <li><a href="/" title="Home Page">Home</a></li>
           <li><a href="../psychology" title="Psychology Page">Psychology</a></li>
-          <li><a href="" title="Law Page" class="current">Law</a></li>
+          <li><a href="../law" title="Law Page">Law</a></li>
           <li><a href="../about" title="About Page">About Us</a></li>
-          <li><a href="../contact" title="Contact Page">Contact</a></li>
+          <li><a href="" title="Contact Page" class="current">Contact</a></li>
           <li><a href="../legal" title="Legal Page">Legal</a></li>
         </ul>
     </nav>
@@ -72,22 +72,52 @@
   <div role="main">  
 
   	<section >
-  		<img src="../img/law_icon.jpg" width="276" height="90" alt="Law">
-  		<h2>Law</h2>
-  		<p><a href="../about#bobtinson" title="Bob Stinson">Bob Stinson, Attorney at Law</a>, has a generalist law practice. He was a Board Certified Forensic Psychologist before becoming a lawyer, which shaped his perspective on—and interest in—the practice of law. Bob has a special interest in administrative / regulatory law—that is, the area of law that interfaces with licensed professionals, their licenses, and the Boards that regulate their practices.</p>
+  		
+  		<h2>To Contact Us</h2>
 
-      <p>If you have questions about your practice obligations under the law, under your State Board’s rules and regulations, about your license, or about other practice issues, contact Bob Stinson.</p>
+      <h3>Address</h3>
+      <div class="clearfix">
+        <div class="address address-left">
+      		<p>20 S. Third Street, Suite 210</p>
+          <p>Columbus, OH 43215</p>
 
-      <p>Types of cases you may need representation on include the following:</p>
-      <ul>
-        <li>Someone has threatened or made an actual complaint against your license</li>
-        <li>Someone has threatened or made an actual complaint to the Ethics Committee</li>
-        <li>Someone has threatened or filed an actual lawsuit for malpractice</li>
-        <li>Someone in your practice has attempted or committed suicide or a violent act</li>
-        <li>Responding to a subpoena for patient records or information</li>
-        <li>Representation during a deposition</li>
-        <li>Non-practice related issues that could jeopardize your license</li>
-      </ul>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x88388f33cb303d71%3A0x1f0ed6ec30bf5c68!2s20+S+3rd+St+%23210%2C+Columbus%2C+OH+43215%2C+USA!5e0!3m2!1sen!2s!4v1390052901769" frameborder="0" style="border:0"></iframe>
+        </div>
+    
+        <div class="address address-right">
+          <p>7440 Rolling Ridge Way</p>
+          <p>Westerville, OH 43082</p>
+          
+          <h3>Phone</h3>
+          <p>(614) 309-9727</p>
+
+          <h3>Fax</h3>
+          <?php echo "Thank you for contacting us!"; ?>
+          <p>(614) 895-6801</p>
+
+        </div>
+      </div>
+
+      <h3>Send a Message<h3>
+
+      <form action="mail_handler.php" method="post">
+
+        <fieldset>
+          <label for="name">Your name</label>
+          <input type="text" name="name" id="name" required >
+          
+          <label for="email">Your email address</label>
+          <input type="email" name="email" id="email" required >
+          
+          <label for="message">Enter your message</label>
+          <textarea name="message" id="message" cols="25" rows="5" required ></textarea>
+          
+          <input type="submit" name="submit" value="Submit Form" id="submit-button">
+        </fieldset>
+
+      </form>
+
+
   		
   	</section>
 	
@@ -96,7 +126,7 @@
   	
   	<p>&copy;2013-2014 Stinson &amp; Associates, Inc.</p>
   	<ul>
-  			<li><a href="../contact" title="Contact Me">Contact</a></li>
+  			<li><a href="" title="Contact Me" class="current">Contact</a></li>
   			<li><a href="../legal" title="Legal Documentation">Legal</a></li>
   	</ul>
   	
