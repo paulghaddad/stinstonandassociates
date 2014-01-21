@@ -92,7 +92,6 @@
           <p>(614) 309-9727</p>
 
           <h3>Fax</h3>
-          <?php echo "Thank you for contacting us!"; ?>
           <p>(614) 895-6801</p>
 
         </div>
@@ -113,7 +112,7 @@
   	
   	<p>&copy;2013-2014 Stinson &amp; Associates, Inc.</p>
   	<ul>
-  			<li><a href="" title="Contact Me" class="current">Contact</a></li>
+  			<li><a href="../contact" title="Contact Me" class="current">Contact</a></li>
   			<li><a href="../legal" title="Legal Documentation">Legal</a></li>
   	</ul>
   	

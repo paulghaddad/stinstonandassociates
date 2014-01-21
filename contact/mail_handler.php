@@ -1,11 +1,11 @@
 <?php 
 if(isset($_POST['submit'])){
-    $to = "paulh16@gmail.com"; // this is your Email address
+    $to = "stinson@stinsonandassociates.com"; // this is your Email address
     $from = $_POST['email']; // this is the sender's Email address
     $name = $_POST['name'];
-    $subject = "Form submission";
-    $message = $name . " wrote the following:" . "\n\n" . $_POST['message'];
-    //$headers = "From:" . $from;
+    $subject = "Contact Form Submission from Stinson and Associates";
+    $message = "Name: " . $name . " \n\n" . "Email Address: " . $from . " \n\n" . "Message:" . "\n\n" . $_POST['message'];
+    $headers = "From:" . "stinson";
     //$headers2 = "From:" . $to;
     mail($to,$subject,$message,$headers);
     header('Location: confirmation.php#confirmed');

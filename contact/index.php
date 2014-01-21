@@ -92,7 +92,6 @@
           <p>(614) 309-9727</p>
 
           <h3>Fax</h3>
-          <?php echo "Thank you for contacting us!"; ?>
           <p>(614) 895-6801</p>
 
         </div>
