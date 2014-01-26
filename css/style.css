@@ -253,7 +253,9 @@ div[role="main"] {
 /* Typography */
 
 body {
-	font-family: 'Open Sans', Helvetica, Arial, Helvetica, sans-serif;
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 footer a {
@@ -261,7 +263,7 @@ footer a {
 }
 section h2 {
 	color: rgb(205, 12, 23);
-	font-weight: bold;
+	font-weight: 700;
 }
 section h2, section p {
 	padding: 5px;
@@ -375,7 +377,7 @@ footer p {
 
 .home span {
   color: rgb(205, 12, 23);
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .home p img {
@@ -401,14 +403,9 @@ footer p {
   padding: 0 20px 10px 0;
 }
 
-.law section a {
+.law section a, .law p span {
   color: rgb(205, 12, 23);
-  font-weight: bold;
-}
-
-.law p span {
-  color: rgb(205, 12, 23);
-  font-weight: bold;
+  font-weight: 700;
 }
 
 /* Psychology */
@@ -422,7 +419,7 @@ footer p {
 
 .psychology section p {
   color: rgb(205, 12, 23);
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .psychology p img {
@@ -502,7 +499,7 @@ footer p {
   display: block;
   background: #868686;
   color: white;
-  font-family: 'Open Sans', Helvetica, Arial, Helvetica, sans-serif;
+  font-family: "proxima-nova",sans-serif;
   padding: 5px;
 }
 
@@ -526,7 +523,7 @@ footer p {
 
 #confirmed p {
   color: rgb(205, 12, 23);
-  font-weight: bold;
+  font-weight: 700;
   text-align: center;
   padding-top: 2em;
 }
@@ -555,7 +552,7 @@ footer p {
 
 .about p span {
   color: rgb(205, 12, 23);
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .about p img {

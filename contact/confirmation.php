@@ -29,7 +29,8 @@
   
   
   
-  <link href='http://fonts.googleapis.com/css?family=Arimo:400,700|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="//use.typekit.net/kix7cjl.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
 
