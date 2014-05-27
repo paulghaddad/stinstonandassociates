@@ -1,4 +1,4 @@
-stinson
+Stinson and Associates
 =============
 
 ## Purpose
