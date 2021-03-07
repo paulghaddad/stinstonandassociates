@@ -38,6 +38,7 @@
        Modernizr enables HTML5 elements & feature detects for optimal performance.
        Create your own custom Modernizr build: www.modernizr.com/download/ -->
   <script src="../js/libs/modernizr-2.5.3.min.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body class="contact">
   <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
@@ -112,7 +113,9 @@
           <label for="message">Enter your message</label>
           <textarea name="message" id="message" cols="25" rows="5" required ></textarea>
           
-          <input type="submit" name="submit" value="Submit Form" id="submit-button">
+          <div class="g-recaptcha" data-sitekey="6LcICXYaAAAAAAQZGWn19SDLXJUYhSlr5lybNaFv" data-callback="enableBtn"></div>
+
+          <input type="submit" name="submit" value="Submit Form" id="submit-button" disabled>
         </fieldset>
 
       </form>
@@ -155,6 +158,12 @@
     ga('create', 'UA-48144020-1', 'stinsonandassociates.com');
     ga('send', 'pageview');
 
+  </script>
+
+  <script>
+    function enableBtn(){
+      document.getElementById("submit-button").disabled = false;
+  }
   </script>
 </body>
 </html>
